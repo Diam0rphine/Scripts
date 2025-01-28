@@ -1,6 +1,6 @@
 #/bin/sh
 
-DEV="/dev/sdb"
+DEV="/dev/sdX"
 DEV_BOOT="$DEV"1
 DEV_INSTALL="$DEV"2
 ISO="Win11_24H2_German_x64.iso"
