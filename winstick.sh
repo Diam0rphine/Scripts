@@ -73,7 +73,7 @@ sudo rm -r /mnt/vfat
 sudo rm -r /mnt/ntfs
 sleep 1
 
-echo
-echo "# Power off your USB flash drive"
-echo
+#echo
+#echo "# Power off your USB flash drive"
+#echo
 #udo udisksctl power-off -b $DEV
