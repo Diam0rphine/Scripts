@@ -25,7 +25,8 @@ Write-Host " 9.) Run WinUtil"
 Write-Host " 10.) Run Run OO Shutup 10"
 Write-Host " 11.) Download Ghost Toolbox"
 Write-Host " 12.) Install Ghost Toolbox"
-Write-Host " 13.) Quit"
+Write-Host " 13.) Download AMD Graphics Driver"
+Write-Host " 14.) Quit"
 Write-Host
 Write-Host " Select an option and press Enter: "  -nonewline
 }
@@ -200,9 +201,17 @@ Switch ($Select)
        Write-Host
        cls
        }
+13   {
+       Write-Host
+       Write-Host " Open Browser to AMD."
+	   Start-Process "https://www.amd.com/en/support/download/drivers.html"
+       cls
+       Write-Host
+       cls
+       }
        
     }
 }
 
-While ($Select -ne 13)
+While ($Select -ne 14)
        
